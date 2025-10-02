@@ -22,9 +22,4 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-
-    # Step 3: Navigate into project folder & build with Maven
-    - name: Build with Maven
-      run: mvn clean install
-    # Set the directory where the pom.xml is located
-      working-directory: ./CubesEduSeleniumMaster 
+      
