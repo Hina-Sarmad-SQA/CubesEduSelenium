@@ -21,6 +21,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: maven clean test
+      working-directory: ./CubesEduSeleniumMaster 
 
 
       
